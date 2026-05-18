@@ -168,7 +168,7 @@ export const App = () => {
                 'Técnicas de realização',
                 'Exercícios práticos',
               ].map(item => (
-                <li key={item} className="flex items-start gap-3">
+                <li key={item} className="flex items-center gap-3">
                   <span className="mt-1 flex w-6 h-6 items-center justify-center rounded-full bg-accent text-accent-foreground">
                     <Check className="w-3.5 h-3.5" />
                   </span>
