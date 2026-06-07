@@ -9,6 +9,9 @@ npm run build
 # navigate into the build output directory
 cd dist
 
+# cria o arquivo CNAME para o domínio
+echo "taynafarria.com" > CNAME
+
 git init
 git checkout -b main
 git add -A
